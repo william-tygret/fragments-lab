@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="William Conrad Tygret"
+        android:id="@+id/nameTextView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="28dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="(405)370-3810"
+        android:id="@+id/phoneTextView"
+        android:layout_below="@+id/nameTextView2"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="wctygret@gmail.com"
+        android:id="@+id/emailTextView"
+        android:layout_below="@+id/phoneTextView"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="\@freshprincewilliam"
+        android:id="@+id/handleTextView"
+        android:layout_below="@+id/emailTextView"
+        android:layout_alignRight="@+id/emailTextView"
+        android:layout_alignEnd="@+id/emailTextView"/>
+</RelativeLayout>
